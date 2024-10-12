@@ -18,6 +18,7 @@
 		25F9BA342CBB184800590BF2 /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 25F9BA332CBB184800590BF2 /* FirebaseAppDistribution-Beta */; };
 		25F9BA362CBB18E600590BF2 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 25F9BA352CBB18E600590BF2 /* .gitignore */; };
 		25F9BA382CBB197100590BF2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25F9BA372CBB197100590BF2 /* GoogleService-Info.plist */; };
+		25F9BA3B2CBB1B1400590BF2 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F9BA3A2CBB1B1400590BF2 /* Song.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		25F9BA232CBB172C00590BF2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		25F9BA352CBB18E600590BF2 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		25F9BA372CBB197100590BF2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		25F9BA3A2CBB1B1400590BF2 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 		25F9BA1B2CBB172B00590BF2 /* TuneVibe */ = {
 			isa = PBXGroup;
 			children = (
+				25F9BA392CBB1B0900590BF2 /* Model */,
 				25F9BA372CBB197100590BF2 /* GoogleService-Info.plist */,
 				25F9BA352CBB18E600590BF2 /* .gitignore */,
 				25F9BA1C2CBB172B00590BF2 /* TuneVibeApp.swift */,
@@ -81,6 +84,14 @@
 				25F9BA232CBB172C00590BF2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		25F9BA392CBB1B0900590BF2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				25F9BA3A2CBB1B1400590BF2 /* Song.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25F9BA3B2CBB1B1400590BF2 /* Song.swift in Sources */,
 				25F9BA1F2CBB172B00590BF2 /* ContentView.swift in Sources */,
 				25F9BA1D2CBB172B00590BF2 /* TuneVibeApp.swift in Sources */,
 			);
