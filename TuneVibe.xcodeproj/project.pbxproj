@@ -10,9 +10,9 @@
 		25356FB62CBC52CB00D8E74B /* AudioPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25356FB52CBC52CB00D8E74B /* AudioPlayerManager.swift */; };
 		25356FB82CBC551900D8E74B /* SongDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25356FB72CBC551900D8E74B /* SongDataModel.swift */; };
 		25356FBA2CBC573000D8E74B /* AudioPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25356FB92CBC573000D8E74B /* AudioPlayerView.swift */; };
-		25356FBC2CBC573B00D8E74B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25356FBB2CBC573B00D8E74B /* ContentView.swift */; };
 		25356FBE2CBC588400D8E74B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25356FBD2CBC588400D8E74B /* GoogleService-Info.plist */; };
 		25356FC12CBC58FD00D8E74B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 25356FC02CBC58FD00D8E74B /* FirebaseFirestore */; };
+		25356FC32CBC5AEF00D8E74B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25356FC22CBC5AEF00D8E74B /* ContentView.swift */; };
 		25F9BA1D2CBB172B00590BF2 /* TuneVibeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F9BA1C2CBB172B00590BF2 /* TuneVibeApp.swift */; };
 		25F9BA212CBB172C00590BF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25F9BA202CBB172C00590BF2 /* Assets.xcassets */; };
 		25F9BA242CBB172C00590BF2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25F9BA232CBB172C00590BF2 /* Preview Assets.xcassets */; };
@@ -29,8 +29,8 @@
 		25356FB52CBC52CB00D8E74B /* AudioPlayerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayerManager.swift; sourceTree = "<group>"; };
 		25356FB72CBC551900D8E74B /* SongDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDataModel.swift; sourceTree = "<group>"; };
 		25356FB92CBC573000D8E74B /* AudioPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayerView.swift; sourceTree = "<group>"; };
-		25356FBB2CBC573B00D8E74B /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../TestProject!/TestProject!/ContentView.swift"; sourceTree = "<group>"; };
 		25356FBD2CBC588400D8E74B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		25356FC22CBC5AEF00D8E74B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		25F9BA192CBB172B00590BF2 /* TuneVibe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuneVibe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25F9BA1C2CBB172B00590BF2 /* TuneVibeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuneVibeApp.swift; sourceTree = "<group>"; };
 		25F9BA202CBB172C00590BF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -106,9 +106,9 @@
 				25356FBD2CBC588400D8E74B /* GoogleService-Info.plist */,
 				25F9BA352CBB18E600590BF2 /* .gitignore */,
 				25F9BA1C2CBB172B00590BF2 /* TuneVibeApp.swift */,
-				25356FBB2CBC573B00D8E74B /* ContentView.swift */,
 				25F9BA202CBB172C00590BF2 /* Assets.xcassets */,
 				25F9BA222CBB172C00590BF2 /* Preview Content */,
+				25356FC22CBC5AEF00D8E74B /* ContentView.swift */,
 			);
 			path = TuneVibe;
 			sourceTree = "<group>";
@@ -214,7 +214,7 @@
 			files = (
 				25356FB62CBC52CB00D8E74B /* AudioPlayerManager.swift in Sources */,
 				25F9BA3B2CBB1B1400590BF2 /* Song.swift in Sources */,
-				25356FBC2CBC573B00D8E74B /* ContentView.swift in Sources */,
+				25356FC32CBC5AEF00D8E74B /* ContentView.swift in Sources */,
 				25356FBA2CBC573000D8E74B /* AudioPlayerView.swift in Sources */,
 				25356FB82CBC551900D8E74B /* SongDataModel.swift in Sources */,
 				25F9BA1D2CBB172B00590BF2 /* TuneVibeApp.swift in Sources */,
