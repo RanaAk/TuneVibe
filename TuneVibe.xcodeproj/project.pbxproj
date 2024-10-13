@@ -9,8 +9,11 @@
 /* Begin PBXBuildFile section */
 		25356FB62CBC52CB00D8E74B /* AudioPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25356FB52CBC52CB00D8E74B /* AudioPlayerManager.swift */; };
 		25356FB82CBC551900D8E74B /* SongDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25356FB72CBC551900D8E74B /* SongDataModel.swift */; };
+		25356FBA2CBC573000D8E74B /* AudioPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25356FB92CBC573000D8E74B /* AudioPlayerView.swift */; };
+		25356FBC2CBC573B00D8E74B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25356FBB2CBC573B00D8E74B /* ContentView.swift */; };
+		25356FBE2CBC588400D8E74B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25356FBD2CBC588400D8E74B /* GoogleService-Info.plist */; };
+		25356FC12CBC58FD00D8E74B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 25356FC02CBC58FD00D8E74B /* FirebaseFirestore */; };
 		25F9BA1D2CBB172B00590BF2 /* TuneVibeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F9BA1C2CBB172B00590BF2 /* TuneVibeApp.swift */; };
-		25F9BA1F2CBB172B00590BF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F9BA1E2CBB172B00590BF2 /* ContentView.swift */; };
 		25F9BA212CBB172C00590BF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25F9BA202CBB172C00590BF2 /* Assets.xcassets */; };
 		25F9BA242CBB172C00590BF2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25F9BA232CBB172C00590BF2 /* Preview Assets.xcassets */; };
 		25F9BA2C2CBB184800590BF2 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 25F9BA2B2CBB184800590BF2 /* FirebaseAnalytics */; };
@@ -19,20 +22,20 @@
 		25F9BA322CBB184800590BF2 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 25F9BA312CBB184800590BF2 /* FirebaseAppCheck */; };
 		25F9BA342CBB184800590BF2 /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 25F9BA332CBB184800590BF2 /* FirebaseAppDistribution-Beta */; };
 		25F9BA362CBB18E600590BF2 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 25F9BA352CBB18E600590BF2 /* .gitignore */; };
-		25F9BA382CBB197100590BF2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25F9BA372CBB197100590BF2 /* GoogleService-Info.plist */; };
 		25F9BA3B2CBB1B1400590BF2 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F9BA3A2CBB1B1400590BF2 /* Song.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		25356FB52CBC52CB00D8E74B /* AudioPlayerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayerManager.swift; sourceTree = "<group>"; };
 		25356FB72CBC551900D8E74B /* SongDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDataModel.swift; sourceTree = "<group>"; };
+		25356FB92CBC573000D8E74B /* AudioPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayerView.swift; sourceTree = "<group>"; };
+		25356FBB2CBC573B00D8E74B /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../TestProject!/TestProject!/ContentView.swift"; sourceTree = "<group>"; };
+		25356FBD2CBC588400D8E74B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		25F9BA192CBB172B00590BF2 /* TuneVibe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuneVibe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25F9BA1C2CBB172B00590BF2 /* TuneVibeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuneVibeApp.swift; sourceTree = "<group>"; };
-		25F9BA1E2CBB172B00590BF2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		25F9BA202CBB172C00590BF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25F9BA232CBB172C00590BF2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		25F9BA352CBB18E600590BF2 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		25F9BA372CBB197100590BF2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		25F9BA3A2CBB1B1400590BF2 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -46,6 +49,7 @@
 				25F9BA342CBB184800590BF2 /* FirebaseAppDistribution-Beta in Frameworks */,
 				25F9BA302CBB184800590BF2 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
 				25F9BA2E2CBB184800590BF2 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				25356FC12CBC58FD00D8E74B /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,8 +68,16 @@
 		25356FB22CBC529100D8E74B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				25356FB92CBC573000D8E74B /* AudioPlayerView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		25356FBF2CBC58FD00D8E74B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		25F9BA102CBB172B00590BF2 = {
@@ -73,6 +85,7 @@
 			children = (
 				25F9BA1B2CBB172B00590BF2 /* TuneVibe */,
 				25F9BA1A2CBB172B00590BF2 /* Products */,
+				25356FBF2CBC58FD00D8E74B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,10 +103,10 @@
 				25356FB22CBC529100D8E74B /* View */,
 				25356FB12CBC528500D8E74B /* ViewModel */,
 				25F9BA392CBB1B0900590BF2 /* Model */,
-				25F9BA372CBB197100590BF2 /* GoogleService-Info.plist */,
+				25356FBD2CBC588400D8E74B /* GoogleService-Info.plist */,
 				25F9BA352CBB18E600590BF2 /* .gitignore */,
 				25F9BA1C2CBB172B00590BF2 /* TuneVibeApp.swift */,
-				25F9BA1E2CBB172B00590BF2 /* ContentView.swift */,
+				25356FBB2CBC573B00D8E74B /* ContentView.swift */,
 				25F9BA202CBB172C00590BF2 /* Assets.xcassets */,
 				25F9BA222CBB172C00590BF2 /* Preview Content */,
 			);
@@ -138,6 +151,7 @@
 				25F9BA2F2CBB184800590BF2 /* FirebaseAnalyticsWithoutAdIdSupport */,
 				25F9BA312CBB184800590BF2 /* FirebaseAppCheck */,
 				25F9BA332CBB184800590BF2 /* FirebaseAppDistribution-Beta */,
+				25356FC02CBC58FD00D8E74B /* FirebaseFirestore */,
 			);
 			productName = TuneVibe;
 			productReference = 25F9BA192CBB172B00590BF2 /* TuneVibe.app */;
@@ -185,7 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25F9BA242CBB172C00590BF2 /* Preview Assets.xcassets in Resources */,
-				25F9BA382CBB197100590BF2 /* GoogleService-Info.plist in Resources */,
+				25356FBE2CBC588400D8E74B /* GoogleService-Info.plist in Resources */,
 				25F9BA362CBB18E600590BF2 /* .gitignore in Resources */,
 				25F9BA212CBB172C00590BF2 /* Assets.xcassets in Resources */,
 			);
@@ -200,8 +214,9 @@
 			files = (
 				25356FB62CBC52CB00D8E74B /* AudioPlayerManager.swift in Sources */,
 				25F9BA3B2CBB1B1400590BF2 /* Song.swift in Sources */,
+				25356FBC2CBC573B00D8E74B /* ContentView.swift in Sources */,
+				25356FBA2CBC573000D8E74B /* AudioPlayerView.swift in Sources */,
 				25356FB82CBC551900D8E74B /* SongDataModel.swift in Sources */,
-				25F9BA1F2CBB172B00590BF2 /* ContentView.swift in Sources */,
 				25F9BA1D2CBB172B00590BF2 /* TuneVibeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +434,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		25356FC02CBC58FD00D8E74B /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 25F9BA2A2CBB184800590BF2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
 		25F9BA2B2CBB184800590BF2 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 25F9BA2A2CBB184800590BF2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
