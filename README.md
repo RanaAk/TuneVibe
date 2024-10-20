@@ -1,29 +1,31 @@
 <h1 align="left">🎶 TuneVibe 🎶</h1>
 <p>
-Welcome to **TuneVibe**, a Spotify-like app for developers! This version lets you upload and stream music using **Firebase**. It's **ad-free**, offers **seamless streaming**, and is built for iOS/macOS developers. 🎧
+<b></b>Welcome to <b>TuneVibe</b>, a Spotify-like app for developers! This version lets you stream music using Firebase. It's ad-free, offers <b>seamless streaming</b>, and is built for iOS/macOS developers. 🎧 </b>
 </p>
 <br>
 
 <p align="center">
   <img src="https://img.icons8.com/color/48/000000/firebase.png" alt="Firebase" />
-  +
+   <img src="https://img.icons8.com/ios-filled/50/FFFFFF/plus-math.png" alt="Plus" width="24" height="24" />
   <img src="https://img.icons8.com/color/48/000000/musical-notes.png" alt="Music" />
-  +
+  
+   <img src="https://img.icons8.com/ios-filled/50/FFFFFF/plus-math.png" alt="Plus" width="24" height="24" />
+
+   
   <img src="https://img.icons8.com/color/48/000000/swift.png" alt="Swift" />
 </p>
 
 ## 🚀 Features
 - 🎵 **Developer-Centric**: Upload music files via Firebase for testing and development.
-- 🔥 **Firebase Integration**: Streams music data directly from Firebase Firestore and Storage.
+- 🔥 **Firebase Integration**: Streams music data directly from Firebase Firestore nd Storage.
 - 🌐 **Online Streaming**: Temporary caching ensures no device storage usage.
 - 🎛️ **Swift-Based**: Built using Swift for iOS/macOS, showcasing infinite possibilities!
 
-> **Note**: Search functionality is coming soon. Stay tuned! 🎯
 
 ## 📸 Screenshots
-<p align="left">
-  <img src="Screenshots/one.png" alt="Screenshot 1" width="300"/>
-  <img src="Screenshots/two.png" alt="Screenshot 2" width="300"/>
+<p align="center">
+  <img src="TuneVibe/TuneVibe.gif" alt="Screenshot 1" width="300"/>
+<!--   <img src="Screenshots/two.png" alt="Screenshot 2" width="300"/> -->
 </p>
 
 ## 🧩 How It Works
@@ -78,9 +80,11 @@ TuneVibe leverages **Firebase** to fetch and stream music. Here’s how:
 With **TuneVibe**, you can:
 - Build personalized streaming apps for iOS/macOS.
 - Experiment with dynamic streaming and real-time updates using Firestore.
-- Explore features like live radio, user playlists, and more!
+
 
 > Dive in and start building your own online music streamer!
+
+<!-- > **Note**: Search functionality is coming soon. Stay tuned! 🎯 -->
 
 ## 📝 License
 MIT License © 2024 Mehedi Akbar Rana  
